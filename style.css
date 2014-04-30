@@ -1,0 +1,17 @@
+/*
+CSS for MetalBase website
+Version: April 29, 2014
+*/
+
+/*
+Structure Tags
+----------------
+*/
+h1 {
+	font-family: Arial, Helvetica, Times, sans-serif;
+}
+
+body {
+	background-color: #111111;
+	color: #666666;
+}
