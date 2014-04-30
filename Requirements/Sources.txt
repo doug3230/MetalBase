@@ -1,0 +1,19 @@
+Throughout this phase, I have made use of the following resources:
+
+SRS Templates and Examples:
+---------------------------
+http://research.cs.queensu.ca/~emads/teaching/slides/srs_template_sep14.pdf
+
+http://users.tricity.wsu.edu/~mckinnon/cpts322/
+(Project Documentation section)
+
+http://www.cse.chalmers.se/~feldt/courses/reqeng/examples/srs_example_2010_group2.pdf
+
+
+Hacks
+-----
+Subtitle Hack
+http://tex.stackexchange.com/questions/50182/subtitle-with-the-maketitle-page
+
+Hyperlinked Table of Contents Hack
+http://tex.stackexchange.com/questions/73862/how-can-i-make-a-clickable-table-of-contents
