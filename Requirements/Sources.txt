@@ -17,3 +17,6 @@ http://tex.stackexchange.com/questions/50182/subtitle-with-the-maketitle-page
 
 Hyperlinked Table of Contents Hack
 http://tex.stackexchange.com/questions/73862/how-can-i-make-a-clickable-table-of-contents
+
+Defining a new command in LaTeX (for MetalVoice)
+http://kb.mit.edu/confluence/pages/viewpage.action?pageId=3907275
