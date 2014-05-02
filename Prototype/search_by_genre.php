@@ -12,7 +12,7 @@
 		<div id="contentzone">
 			<h3>Here is the content zone. Its purpose varies from page to page.</h3>
 			<h2>Search by Genre</h2>
-			<p>Here I allow the user to browse results by the genre that they are associated with.</p>
+			<p>Here the user is able to browse results by the genre that they are associated with.</p>
 			<p><strong>Important:</strong> One band/album/song can have multiple genres.</p>
 			<p><?php 
 				$genres = array('Classic Metal', 'NWoBHM', 'Power Metal', 'Thrash Metal', 'Death Metal');
@@ -21,6 +21,7 @@
 				$lastgenre = end($genres);
 				echo "<a href='results.php'>$lastgenre</a>";
 				?></p>
+			<p>Genres are stored in the database system and new genres can be added using a link on the home page.</p>
 		</div> <!-- End of contentzone div -->
 			
 		<?php include 'includes/footerzone.html.php'; ?>
