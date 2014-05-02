@@ -12,7 +12,15 @@
 		<h2>Welcome to the MetalBase Website!</h2>
 		<p>Here I describe the website, what it is for, and how to use it.</p>
 		<p>This page serves as an "About" page, and does not need to be dynamically changed over time.</p>
-		<p><strong>Optional:</strong> This page can include links to favourite parts of the site.</p>
+		
+		<p>This page also provides links to the add pages:
+			<table border="1">
+				<tr>
+					<td>Add Band</td><td>Add Album</td><td>Add Song</td>
+					<td>Add Genre</td><td>Add Country</td>
+				</tr>
+			</table>
+		</p>
 		
 		<?php include 'includes/footerzone.html.php'; ?>
 	</body>
