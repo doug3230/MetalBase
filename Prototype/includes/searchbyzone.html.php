@@ -2,7 +2,7 @@
 	<p>I also provide links to individual pages for viewing
 	<ul>
 		<li><a href="search_by_name.php">
-			results by the letter of the alphabet that their name starts with</a></li>
+			results by letter of the alphabet</a></li>
 		<li><a href="search_by_genre.php">
 			results by genre</a></li>
 		<li><a href="search_by_country.php">
