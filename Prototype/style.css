@@ -16,6 +16,15 @@ body {
 	color: #666666;
 }
 
+/*
+ID Tags
+---------
+*/
+#titlezone {
+	border: orange solid 1px;
+	margin-bottom: 2px;
+}
+
 #navigationzone {
 	border: blue solid 1px;
 }
@@ -24,6 +33,10 @@ body {
 	border: red solid 1px;
 }
 
+/*
+Class Tags
+------------
+*/
 .nolinkbody {
 	text-decoration:none;
 	color: #666666;
