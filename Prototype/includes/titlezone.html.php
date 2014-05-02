@@ -1,5 +1,5 @@
 <div id="titlezone">
-	<p>Here is the title zone. It appears at the top of each page.</p>
+	<h3>Here is the title zone. It appears at the top of each page.</h3>
 	<div id="titlezoneheading">
 		<h1><a href="index.php" class="nolinkbody">MetalBase</a></h1>
 	</div> <!-- End of titleheading div -->

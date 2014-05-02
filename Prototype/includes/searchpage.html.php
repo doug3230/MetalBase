@@ -10,7 +10,7 @@
 		<?php include 'includes/navigationzone.html.php'; ?>
 		
 		<div id="contentzone">
-			<p>Here is the content zone. Its purpose varies from page to page.</p>
+			<h3>Here is the content zone. Its purpose varies from page to page.</h3>
 			<h2><?php echo ucfirst($element);?>s on the Site</h2>
 			<form><input type="text" /><input type="submit" value="<?php echo 'Search ' . ucfirst($element) . 's';?>" /></form>
 			<p>Here I give the option to give a detailed search for <?php echo $element;?>s with a name similar to the input text. <br />

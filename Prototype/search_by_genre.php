@@ -10,7 +10,7 @@
 		<?php include 'includes/navigationzone.html.php'; ?>
 		
 		<div id="contentzone">
-			<p>Here is the content zone. Its purpose varies from page to page.</p>
+			<h3>Here is the content zone. Its purpose varies from page to page.</h3>
 			<h2>Search by Genre</h2>
 			<p>Here I allow the user to browse results by the genre that they are associated with.</p>
 			<p><strong>Important:</strong> One band/album/song can have multiple genres.</p>

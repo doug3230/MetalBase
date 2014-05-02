@@ -10,7 +10,7 @@
 		<?php include 'includes/navigationzone.html.php'; ?>
 		
 		<div id="contentzone">
-			<p>Here is the content zone. Its purpose varies from page to page.</p>
+			<h3>Here is the content zone. Its purpose varies from page to page.</h3>
 			<h2>Results</h2>
 			<p>Here I display the results of a search query.</p>
 			<p>The results allow the user to access a band's, 

@@ -10,7 +10,7 @@
 		<?php include 'includes/navigationzone.html.php'; ?>
 		
 		<div id="contentzone">
-			<p>Here is the content zone. Its purpose varies from page to page.</p>
+			<h3>Here is the content zone. Its purpose varies from page to page.</h3>
 			<h2>External Archives</h2>
 			<p>Here I provide some links to online resources I find useful.</p>
 			<p>Examples of external archives are 

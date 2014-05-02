@@ -1,5 +1,5 @@
 <div id="navigationzone">
-	<p>Here is the navigation zone. It can be used to navigate the site quickly.</p>
+	<h3>Here is the navigation zone. It can be used to navigate the site quickly.</h3>
 	<ul>
 		<li><a href="index.php">Home</a></li>
 		<li><a href="bands.php">Bands</a></li>
@@ -9,5 +9,5 @@
 	</ul>
 	<p><strong>Important:</strong> The navigation area looks 
 	stylish. Perhaps by using a horizontal dropdown layout 
-	(Client-side scripting would be required).</p>
+	(client-side scripting would be required).</p>
 </div> <!-- End of navigationzone div -->
