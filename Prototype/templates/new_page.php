@@ -9,7 +9,9 @@
 		
 		<?php include 'includes/navigationzone.html.php'; ?>
 		
-		<h2>Write Stuff Here!</h2>
+		<div id="contentzone">
+			<h2>Write Stuff Here!</h2>
+		</div> <!-- End of contentzone div -->
 		
 		<?php include 'includes/footerzone.html.php'; ?>
 	</body>

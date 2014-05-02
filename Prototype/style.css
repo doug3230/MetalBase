@@ -27,10 +27,17 @@ ID Tags
 
 #navigationzone {
 	border: blue solid 1px;
+	margin-bottom: 2px;
+}
+
+#contentzone {
+	border: green solid 5px;
+	margin-bottom: 2px;
 }
 
 #footerzone {
 	border: red solid 1px;
+	margin-bottom: 2px;
 }
 
 /*
