@@ -17,7 +17,8 @@
 		
 		<p>I also provide links to individual pages for viewing
 			<ul>
-				<li>bands by the letter of the alphabet that their name starts with</li>
+				<li><a href="search_by_name.php">
+					bands by the letter of the alphabet that their name starts with</a></li>
 				<li>bands by genre</li>
 				<li>bands by country</li>
 			</ul>
