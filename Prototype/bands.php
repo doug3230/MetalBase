@@ -15,17 +15,8 @@
 			I allow the user to filter search results by genre, country, (<strong>Optional:</strong> and the 
 			letter of the alphabet that the band's name starts with).</p>
 		
-		<p>I also provide links to individual pages for viewing
-			<ul>
-				<li><a href="search_by_name.php">
-					bands by the letter of the alphabet that their name starts with</a></li>
-				<li><a href="search_by_genre.php">
-					bands by genre</a></li>
-				<li><a href="search_by_country.php">
-					bands by country</a></li>
-			</ul>
-			<strong>Optional:</strong> Have the 3 above subpages be integrated into the navigation zone in a
-			manner that is pleasing to the user (a dropdown menu perhaps).</p>
+		<?php include 'includes/searchbyzone.html.php'; ?>
+		
 		<p>This page also provides a link to the "Add a Band" page.</p>
 		
 		<?php include 'includes/footerzone.html.php'; ?>
