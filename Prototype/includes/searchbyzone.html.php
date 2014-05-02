@@ -1,13 +1,15 @@
 <div id="searchbyzone">
-	<p>I also provide links to individual pages for viewing
+	<p>The page also provides links to the individual pages for viewing
 	<ul>
+		<li><a href="results.php">
+			all <?php echo $element; ?>s</a></li>
 		<li><a href="search_by_name.php">
-			results by letter of the alphabet</a></li>
+			<?php echo $element; ?>s by letter of the alphabet</a></li>
 		<li><a href="search_by_genre.php">
-			results by genre</a></li>
+			<?php echo $element; ?>s by genre</a></li>
 		<li><a href="search_by_country.php">
-			results by country</a></li>
+			<?php echo $element; ?>s by country</a></li>
 	</ul>
-	<strong>Optional:</strong> Have the 3 above subpages be integrated into the navigation zone in a
+	<strong>Optional:</strong> Have the above subpages be integrated into the navigation zone in a
 	manner that is pleasing to the user (a dropdown menu perhaps).</p>
 </div> <!-- end of searchbyzone div -->

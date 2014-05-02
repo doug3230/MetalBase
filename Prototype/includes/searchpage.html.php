@@ -13,8 +13,8 @@
 			<h3>Here is the content zone. Its purpose varies from page to page.</h3>
 			<h2><?php echo ucfirst($element);?>s on the Site</h2>
 			<form><input type="text" /><input type="submit" value="<?php echo 'Search ' . ucfirst($element) . 's';?>" /></form>
-			<p>Here I give the option to give a detailed search for <?php echo $element;?>s with a name similar to the input text. <br />
-				I allow the user to filter search results by genre, country, (<strong>Optional:</strong> and the 
+			<p>Here the user can perform a detailed search for <?php echo $element;?>s with a name that includes the input text. <br />
+				The user is able to filter search results by genre, country, (<strong>Optional:</strong> and the 
 				letter of the alphabet that the <?php echo $element;?>'s name starts with).</p>
 			
 			<?php include 'includes/searchbyzone.html.php'; ?>
