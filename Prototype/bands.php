@@ -19,7 +19,8 @@
 			<ul>
 				<li><a href="search_by_name.php">
 					bands by the letter of the alphabet that their name starts with</a></li>
-				<li>bands by genre</li>
+				<li><a href="search_by_genre.php">
+					bands by genre</a></li>
 				<li>bands by country</li>
 			</ul>
 			<strong>Optional:</strong> Have the 3 above subpages be integrated into the navigation zone in a
