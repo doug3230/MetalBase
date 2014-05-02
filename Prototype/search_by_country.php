@@ -10,6 +10,7 @@
 		<?php include 'includes/navigationzone.html.php'; ?>
 		
 		<div id="contentzone">
+			<p>Here is the content zone. Its purpose varies from page to page.</p>
 			<h2>Search by Country</h2>
 			<p>Here I allow the user to browse results by the country that they originate from.</p>
 			<p><strong>Optional:</strong> One band/album/song can have multiple countries.</p>

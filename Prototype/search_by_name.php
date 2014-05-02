@@ -10,6 +10,7 @@
 		<?php include 'includes/navigationzone.html.php'; ?>
 		
 		<div id="contentzone">
+			<p>Here is the content zone. Its purpose varies from page to page.</p>
 			<h2>Search by Name</h2>
 			<p>Here I allow the user to browse results by the letter of the alphabet that they begin with.</p>
 			<p><?php 
