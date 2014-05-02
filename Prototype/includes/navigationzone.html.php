@@ -7,7 +7,6 @@
 		<li><a href="songs.php">Songs</a></li>
 		<li><a href="archives.php">Archives</a></li>
 	</ul>
-	<p><strong>Important:</strong> The navigation area looks 
-	stylish. Perhaps by using a horizontal dropdown layout 
-	(client-side scripting would be required).</p>
+	<p><strong>Important:</strong> The navigation zone
+		has a stylish horizontal layout.</p>
 </div> <!-- End of navigationzone div -->

@@ -18,8 +18,6 @@
 				letter of the alphabet that the <?php echo $element;?>'s name starts with).</p>
 			
 			<?php include 'includes/searchbyzone.html.php'; ?>
-			
-			<p>This page also provides a link to the "Add <?php echo ucfirst($element);?>" page.</p>
 		</div> <!-- End of contentzone div -->
 		
 		<?php include 'includes/footerzone.html.php'; ?>
