@@ -12,7 +12,7 @@
 		<div id="contentzone">
 			<h3>Here is the content zone. Its purpose varies from page to page.</h3>
 			<h2>Results</h2>
-			<p>Here I display the results of a search query.</p>
+			<p>Here the results of a search query are displayed.</p>
 			<p>The results allow the user to access a band's, 
 				album's, or song's individual page.</p>
 			<p>
