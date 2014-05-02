@@ -19,7 +19,8 @@
 				<table border="1">
 					<tr>
 						<td>Add Band</td><td>Add Album</td><td>Add Song</td>
-						<td>Add Genre</td><td>Add Country</td>
+						<td><a href="add_genre.php">Add Genre</a></td>
+						<td><a href="add_country.php">Add Country</a></td>
 					</tr>
 				</table>
 			</p>
