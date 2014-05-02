@@ -15,10 +15,10 @@
 		<p><?php 
 			$genres = array('Classic Metal', 'NWoBHM', 'Power Metal', 'Thrash Metal', 'Death Metal');
 			for ($i = 0; $i < count($genres) - 1; $i++)
-				echo "$genres[$i], ";
-			echo end($genres);
+				echo "<a href='results.php'>$genres[$i]</a>, ";
+			$lastgenre = end($genres);
+			echo "<a href='results.php'>$lastgenre</a>";
 			?></p>
-		
 		<?php include 'includes/footerzone.html.php'; ?>
 	</body>
 </html>

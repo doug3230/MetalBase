@@ -15,8 +15,9 @@
 		<p><?php 
 			$countries = array('Canada', 'Germany', 'England', 'United States', 'Japan');
 			for ($i = 0; $i < count($countries) - 1; $i++)
-				echo "$countries[$i], ";
-			echo end($countries);
+				echo "<a href='results.php'>$countries[$i]</a>, ";
+			$lastcountry = end($countries);
+			echo "<a href='results.php'>$lastcountry</a>";
 			?></p>
 		
 		<?php include 'includes/footerzone.html.php'; ?>

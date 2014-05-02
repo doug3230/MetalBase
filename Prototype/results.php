@@ -9,13 +9,18 @@
 		
 		<?php include 'includes/navigationzone.html.php'; ?>
 		
-		<h2>Search by Name</h2>
-		<p>Here I allow the user to browse results by the letter of the alphabet that they begin with.</p>
-		<p><?php 
-			for ($letter = 'A'; $letter < 'Z'; $letter++)
-				echo "<a href='results.php'>$letter</a>, ";
-			echo "<a href='results.php'>Z</a>";
-			?></p>
+		<h2>Results</h2>
+		<p>Here I display the results of a search query.</p>
+		<p>The results allow the user to access a band's, 
+			album's, or song's individual page.</p>
+		<p>
+		<table cols=4 cellspacing="10">
+			<?php
+			$row = str_repeat("<td>Result</td>",8);
+			echo str_repeat("<tr>$row</tr>",25)
+			?>
+		</table>
+		</p>
 		
 		<?php include 'includes/footerzone.html.php'; ?>
 	</body>
