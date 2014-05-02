@@ -10,5 +10,7 @@
 		<?php include 'includes/navigationzone.html.php'; ?>
 		
 		<h2>Bands on the Site</h2>
+		
+		<?php include 'includes/footerzone.html.php'; ?>
 	</body>
 </html>
