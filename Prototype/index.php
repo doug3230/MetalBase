@@ -12,10 +12,10 @@
 		<div id="contentzone">
 			<h3>Here is the content zone. Its purpose varies from page to page.</h3>
 			<h2>Welcome to the MetalBase Website!</h2>
-			<p>Here I describe the website, what it is for, and how to use it.</p>
+			<p>Here the user can read a description of the site, what it is for, and how to use it.</p>
 			<p>This page serves as an "About" page, and does not need to be dynamically changed over time.</p>
 			
-			<p>This page also provides links to the add pages:
+			<p>Links to the "Add" pages are also provided here:
 				<table border="1">
 					<tr>
 						<td>Add Band</td><td>Add Album</td><td>Add Song</td>
