@@ -23,6 +23,7 @@
 					</tr>
 				</table>
 			</p>
+			<p><strong>Optional:</strong> Allow the user to delete bands/albums/songs through the site.</p>
 		</div> <!-- End of contentzone div -->
 		
 		<?php include 'includes/footerzone.html.php'; ?>
