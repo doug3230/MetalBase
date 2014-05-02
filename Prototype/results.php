@@ -19,10 +19,12 @@
 			<table cols=4 cellspacing="10">
 				<?php
 				$row = str_repeat("<td>Result</td>",8);
-				echo str_repeat("<tr>$row</tr>",25)
+				echo str_repeat("<tr>$row</tr>",5)
 				?>
 			</table>
 			</p>
+			<p><strong>Optional:</strong> Output results in a one-by-one row format that lists result attributes so that
+				results sharing the same name do not cause confusion (song covers for example).</p>
 		</div> <!-- End of contentzone div -->
 		
 		<?php include 'includes/footerzone.html.php'; ?>
