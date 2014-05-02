@@ -19,3 +19,8 @@ body {
 #footerzone {
 	border: red solid 1px;
 }
+
+.nolinkbody {
+	text-decoration:none;
+	color: #666666;
+}
