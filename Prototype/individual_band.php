@@ -31,7 +31,7 @@
 			<p><form>
 				<textarea cols="40" rows="10">Blah blah blah. This is informative stuff.</textarea>
 			</form></p>
-			<p>Here there are links for editing the band's profile, 
+			<p>Here there are links for <a href="add_or_edit_band.php">editing the band's profile</a>, 
 				adding an album for this band, and adding a song for this band.</p>
 		</div> <!-- End of contentzone div -->
 		
