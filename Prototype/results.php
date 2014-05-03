@@ -13,8 +13,11 @@
 			<h3>Here is the content zone. Its purpose varies from page to page.</h3>
 			<h2>Results</h2>
 			<p>Here the results of a search query are displayed.</p>
-			<p>The results allow the user to access a band's, 
-				album's, or song's individual page.</p>
+			<p>The results allow the user to access a 
+				<a href="individual_band.php">band's profile page</a>, 
+				an <a href="individual_album.php">album's profile page</a>, 
+				or a <a href="individual_song.php">song's profile page</a> 
+				depending on what was searched.</p>
 			<p>
 			<table cols=4 cellspacing="10">
 				<?php
