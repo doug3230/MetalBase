@@ -20,6 +20,7 @@
 			</form></p>
 			<p><strong>Important:</strong> Duplicate genres are not allowed. 
 				Genre names are stored in lowercase.</p>
+			<p><strong>Important:</strong> Display a message when an addition is (un)successful.</p>
 			<p><strong>Optional:</strong> Provide a listing of all current genres.</p>
 		</div> <!-- End of contentzone div -->
 		

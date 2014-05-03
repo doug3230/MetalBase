@@ -20,6 +20,7 @@
 			</form></p>
 			<p><strong>Important:</strong> Duplicate countries are not allowed. 
 				Country names are stored in titlecase.</p>
+			<p><strong>Important:</strong> Display a message when an addition is (un)successful.</p>
 			<p><strong>Optional:</strong> Provide a listing of all current countries.</p>
 		</div> <!-- End of contentzone div -->
 		
