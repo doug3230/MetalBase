@@ -1,6 +1,6 @@
 <div id="titlezone">
 	<div id="titlezoneheading">
-		<h1><a href="index.php" class="suppresslink">
+		<h1><a href="index.php">
 			<!-- Left image -->
 			<img class="titlezoneimage" src="Images/corna_left.gif" 
 			alt="An enthusiastic metalhead's left hand giving a heavy metal salute."></img>

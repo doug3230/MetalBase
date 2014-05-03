@@ -9,6 +9,7 @@ Structure Tags
 */
 h1 {
 	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 250%;
 }
 
 body {
@@ -20,21 +21,18 @@ body {
 ID Tags
 ---------
 */
-#titlezone {
-	padding: 2px;
-}
-
-/*
-Class Tags
-------------
-*/
-body .suppresslink {
-	text-decoration:none;
+#titlezone  a {
+	text-decoration: none;
 	background-color: #111111;
-	color: #666666;
+	color: #af111c;
 }
 
 #titlezone .titlezoneimage {
 	width: 80px;
 	height: 60px;
 }
+
+/*
+Class Tags
+------------
+*/
