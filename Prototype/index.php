@@ -20,7 +20,7 @@
 					<tr>
 						<td><a href="add_or_edit_band.php">Add Band</a></td>
 						<td><a href="add_or_edit_album.php">Add Album</a></td>
-						<td>Add Song</td>
+						<td><a href="add_or_edit_song.php">Add Song</a></td>
 						<td><a href="add_genre.php">Add Genre</a></td>
 						<td><a href="add_country.php">Add Country</a></td>
 					</tr>

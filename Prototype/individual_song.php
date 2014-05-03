@@ -27,7 +27,7 @@
 			<p><form>
 				<textarea cols="40" rows="10">Blah blah blah. This is informative stuff.</textarea>
 			</form></p>
-			<p>Here there is a link for editing the song's profile.</p>
+			<p>Here there is a link for <td><a href="add_or_edit_song.php">editing the song's profile</a>.</p>
 		</div> <!-- End of contentzone div -->
 		
 		<?php include 'includes/footerzone.html.php'; ?>
