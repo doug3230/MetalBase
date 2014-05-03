@@ -1,10 +1,17 @@
 <div id="titlezone">
 	<div id="titlezoneheading">
-		<h1><a href="index.php" class="suppresslink">MetalBase</a></h1>
-	</div> <!-- End of titleheading div -->
-	<div id="titlezoneimage">
-		<p><em><a href="index.php" class="suppresslink">
-			Here there is also a logo. Both the site title and logo 
-			link back to the homepage when clicked.</a></em></p>
-	</div> <!-- End of titlezoneimage div -->
+		<h1><a href="index.php" class="suppresslink">
+			<!-- Left image -->
+			<img class="titlezoneimage" src="Images/corna_left.gif" 
+			alt="An enthusiastic metalhead's left hand giving a heavy metal salute."></img>
+			<!-- Site title -->
+			MetalBase 
+			<!-- Right image -->
+			<img class="titlezoneimage" src="Images/corna_right.gif" 
+			alt="An enthusiastic metalhead's right hand giving a heavy metal salute."></img>
+		</a></h1>
+		<!-- The images are from 
+		https://lh4.googleusercontent.com/-rY1F8fQDE7Y/TYQ29kcFP2I/AAAAAAAACcw/tEevFMnwUT4/heavy-metal-devil-horns-hand-sign2.jpg
+		-->
+	</div> <!-- End of titlezoneheading div -->
 </div> <!-- End of titlezone div -->
