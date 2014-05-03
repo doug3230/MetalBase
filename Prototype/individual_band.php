@@ -32,7 +32,7 @@
 				<textarea cols="40" rows="10">Blah blah blah. This is informative stuff.</textarea>
 			</form></p>
 			<p>Here there are links for <a href="add_or_edit_band.php">editing the band's profile</a>, 
-				adding an album for this band, and adding a song for this band.</p>
+				<a href="add_or_edit_album.php">adding an album for this band</a>, and adding a song for this band.</p>
 		</div> <!-- End of contentzone div -->
 		
 		<?php include 'includes/footerzone.html.php'; ?>

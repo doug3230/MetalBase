@@ -25,10 +25,6 @@
 				<input type="text" name="bandcountry" id="bandcountry"/>
 				<br />
 				
-				<label for="bandyear">Year of Formation:</label>
-				<input type="text" name="bandyear" id="bandyear"/>
-				<br />
-				
 				<label for="bandnotes">Notes:</label><br />
 				<textarea cols="40" rows="10">Blah blah blah. Here the user can edit this informative stuff.</textarea>
 				<br />
@@ -37,9 +33,9 @@
 			</form></p>
 			
 			<p><strong>Important:</strong>
-				Albums, songs, and links are not handled on the add page.
+				Genres, albums, songs, and links are not handled on the add page.
 				The edit page provides an area that can be used to add/delete
-				existing albums/song relationships and links.</p>
+				existing genres/albums/song relationships and links.</p>
 		</div> <!-- End of contentzone div -->
 		
 		<?php include 'includes/footerzone.html.php'; ?>
