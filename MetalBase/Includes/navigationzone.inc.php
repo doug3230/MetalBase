@@ -1,38 +1,37 @@
 <div id="navigationzone">
 	<ul class="menu">
-		<li>
+		<li class="heading">
 			<a href="index.php">Home</a>
 			<ul>
-				<li><a href="#">Some Action 1</a></li>
-				<li><a href="#">Some Action 2</a></li>
-				<li><a href="#">Some Action 3</a></li>
+				<li><a href="#">Add Genre</a></li>
+				<li><a href="#">Add Country</a></li>
 			</ul>
 		</li>
-		<li>
+		<li class="heading">
 			<a href="bands.php">Bands</a>
 			<ul>
-				<li><a href="#">Some Action 4</a></li>
-				<li><a href="#">Some Action 5</a></li>
-				<li><a href="#">Some Action 6</a></li>
+				<li><a href="#">By Letter</a></li>
+				<li><a href="#">By Genre</a></li>
+				<li><a href="#">By Country</a></li>
 			</ul>
 		</li>
-		<li>
+		<li class="heading">
 			<a href="albums.php">Albums</a>
 			<ul>
-				<li><a href="#">Some Action 7</a></li>
-				<li><a href="#">Some Action 8</a></li>
-				<li><a href="#">Some Action 9</a></li>
+				<li><a href="#">By Letter</a></li>
+				<li><a href="#">By Genre</a></li>
+				<li><a href="#">By Country</a></li>
 			</ul>
 		</li>
-		<li>
+		<li class="heading">
 			<a href="songs.php">Songs</a>
 			<ul>
-				<li><a href="#">Some Action 10</a></li>
-				<li><a href="#">Some Action 11</a></li>
-				<li><a href="#">Some Action 12</a></li>
+				<li><a href="#">By Letter</a></li>
+				<li><a href="#">By Genre</a></li>
+				<li><a href="#">By Country</a></li>
 			</ul>
 		</li>
-		<li>
+		<li class="heading">
 			<a href="archives.php">Archives</a>
 		</li>
 	</ul>
