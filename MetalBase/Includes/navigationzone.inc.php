@@ -3,6 +3,9 @@
 		<li class="heading">
 			<a href="index.php">Home</a>
 			<ul>
+				<li><a href="#">Add Band</a></li>
+				<li><a href="#">Add Album</a></li>
+				<li><a href="#">Add Song</a></li>
 				<li><a href="#">Add Genre</a></li>
 				<li><a href="#">Add Country</a></li>
 			</ul>
