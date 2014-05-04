@@ -7,7 +7,7 @@
 	<body>
 		<?php include 'Includes/titlezone.inc.php'; ?>
 		
-		<?php //include 'Includes/navigationzone.inc.php'; ?>
+		<?php include 'Includes/navigationzone.inc.php'; ?>
 		
 		<div id="contentzone">
 		</div> <!-- End of contentzone div -->
