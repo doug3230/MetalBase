@@ -45,6 +45,7 @@ ID Tags
 #contentzone {
 	border: 2px groove white;
 	margin-bottom: 3px;
+	background-color: #222222;
 }
 
 #footerzone {
@@ -52,6 +53,7 @@ ID Tags
 	line-height: 90%;
 	font-size: 75%;
 	font-family: Times, Georgia, serif;
+	background-color: #222222;
 }
 
 /*
