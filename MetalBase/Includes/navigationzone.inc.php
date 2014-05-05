@@ -45,6 +45,11 @@
 		</li>
 		<li class="heading">
 			<a href="resources.php">Resources</a>
+			<ul>
+				<li><a href="http://metal-archives.com">Metal Archives</a></li>
+				<li><a href="http://en.wikipedia.org/wiki/Portal:Heavy_metal">Wikipedia</a></li>
+				<li><a href="http://www.metalsucks.net/">Metal Sucks</a></li>
+			</ul>
 		</li>
 	</ul>
 </div> <!-- End of navigationzone div -->
