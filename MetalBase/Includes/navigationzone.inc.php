@@ -1,4 +1,13 @@
 <div id="navigationzone">
+	
+	<!--Navigation Stylesheet -->
+	<link href="Styles/dropit.css" rel="stylesheet" type="text/css" />
+	
+	<!--JavaScripts -->
+	<script src="JavaScripts/jquery.js"></script>
+	<script src="JavaScripts/dropit.js"></script>
+	<script src="JavaScripts/main.js"></script>
+	
 	<ul class="menu">
 		<li class="heading">
 			<a href="index.php">Home</a>
