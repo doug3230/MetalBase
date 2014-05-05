@@ -44,7 +44,7 @@
 			</ul>
 		</li>
 		<li class="heading">
-			<a href="archives.php">Archives</a>
+			<a href="resources.php">Resources</a>
 		</li>
 	</ul>
 </div> <!-- End of navigationzone div -->
