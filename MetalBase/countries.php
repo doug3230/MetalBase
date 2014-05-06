@@ -10,9 +10,18 @@
 		<?php include 'Includes/navigationzone.inc.php'; ?>
 		
 		<div id="contentzone">
-			<h2>Welcome to MetalBase, the heavy metal database!</h2>
+			<h2>Countries in the Base</h2>
 			<hr />
-			<p>Some content</p>
+			<p>The following are recognized as countries by MetalBase:</p>
+			
+			<p>
+				<textarea type="text" rows="10" cols="50" disabled="disabled"></textarea>
+			</p>
+			<form method="post" action="countries.php">
+					<label for="newCountry">Add a new country: </label>
+					<input type="text" name="newCountry" id="new country"></input>
+					<input type="submit"></input>
+			</form>
 		</div> <!-- End of contentzone div -->
 		
 		<?php include 'Includes/footerzone.inc.php'; ?>

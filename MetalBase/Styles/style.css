@@ -18,9 +18,10 @@ body {
 	padding: 5px;
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,h2,h3,h4,h5,h6,p,form {
 	padding-left: 5px;
 	padding-right: 5px;
+	padding-bottom: 2px;
 }
 
 /*
@@ -46,6 +47,13 @@ ID Tags
 	border: 2px groove white;
 	margin-bottom: 3px;
 	background-color: #222222;
+}
+
+#contentzone h2 {
+	font-weight: bold;
+	font-size: 165%;
+	color: #af111c;
+	padding-bottom: 0px;
 }
 
 #footerzone {
