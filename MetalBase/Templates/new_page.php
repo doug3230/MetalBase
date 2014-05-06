@@ -10,6 +10,9 @@
 		<?php include 'Includes/navigationzone.inc.php'; ?>
 		
 		<div id="contentzone">
+			<h2>Heading</h2>
+			<hr />
+			<p>Some content.</p>
 		</div> <!-- End of contentzone div -->
 		
 		<?php include 'Includes/footerzone.inc.php'; ?>

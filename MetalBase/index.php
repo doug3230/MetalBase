@@ -10,7 +10,7 @@
 		<?php include 'Includes/navigationzone.inc.php'; ?>
 		
 		<div id="contentzone">
-			<h2>Welcome to MetalBase, the heavy metal database!</h2>
+			<h2>Welcome to MetalBase</h2>
 			<hr />
 			<p>Some content</p>
 		</div> <!-- End of contentzone div -->
