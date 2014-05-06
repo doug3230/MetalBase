@@ -11,6 +11,7 @@
 		
 		<div id="contentzone">
 			<h2>External Resources</h2>
+			<hr />
 			<ul>
 				<li><a href="http://metal-archives.com">Metal Archives</a></li>
 				<li><a href="http://en.wikipedia.org/wiki/Portal:Heavy_metal">Wikipedia</a></li>
