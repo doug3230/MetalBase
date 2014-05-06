@@ -53,7 +53,7 @@
 <XPD:REF name="DiagramOwner">R7oXOvjn20+9ppfGZD/9sgAA</XPD:REF>
 <XPD:OBJ name="DiagramView" type="UMLClassDiagramView" guid="Rv0l6+jPWku7KvV8rQfDiQAA">
 <XPD:REF name="Diagram">foTfdGnVQEKpLUpPdM6y+gAA</XPD:REF>
-<XPD:ATTR name="#OwnedViews" type="integer">9</XPD:ATTR>
+<XPD:ATTR name="#OwnedViews" type="integer">7</XPD:ATTR>
 <XPD:OBJ name="OwnedViews[0]" type="UMLClassView" guid="OSZK1ckbyEGFQYkA/BVXxQAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
@@ -147,100 +147,7 @@
 <XPD:REF name="Model">e4fD8KUbdkueqGoxH/8G3wAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[3]" type="UMLClassView" guid="ZhpbyxNKa0OKnyJ9sE5w2wAA">
-<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
-<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">256</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">224</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">105</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">95</XPD:ATTR>
-<XPD:REF name="Model">yH4skxbjtUiZuMgAlwrOkgAA</XPD:REF>
-<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="aPCR3y/4I0moEr9wqXyDeQAA">
-<XPD:OBJ name="NameLabel" type="LabelView" guid="MKGoApR/nkiGTHqu9xFmbgAA">
-<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">BandLink</XPD:ATTR>
-</XPD:OBJ>
-<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="NfPD7++4W0+nbPxUlHLtTQAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-</XPD:OBJ>
-<XPD:OBJ name="PropertyLabel" type="LabelView" guid="56E2nyvWmEemPJhumaonAgAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-</XPD:OBJ>
-</XPD:OBJ>
-<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="g3luBiLcGEKpBrWO7iqKwgAA">
-<XPD:REF name="Model">yH4skxbjtUiZuMgAlwrOkgAA</XPD:REF>
-</XPD:OBJ>
-<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="WDrGWzp+bUeli1Ap4FS9RgAA">
-<XPD:REF name="Model">yH4skxbjtUiZuMgAlwrOkgAA</XPD:REF>
-</XPD:OBJ>
-<XPD:OBJ name="TemplateParameterCompartment" type="UMLTemplateParameterCompartmentView" guid="BH2eSHgaFEaf5e/4si6pagAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:REF name="Model">yH4skxbjtUiZuMgAlwrOkgAA</XPD:REF>
-</XPD:OBJ>
-</XPD:OBJ>
-<XPD:OBJ name="OwnedViews[4]" type="UMLClassView" guid="wvyv6ZwhhUCPzIp2fKblRgAA">
-<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
-<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">520</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">224</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">105</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">95</XPD:ATTR>
-<XPD:REF name="Model">YgUW7D+24EuSwkkUJr4xKAAA</XPD:REF>
-<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="VtLW7x+JCkynuHuVh/vD4gAA">
-<XPD:OBJ name="NameLabel" type="LabelView" guid="SBhCSIMMlEeNzvLfVvokKwAA">
-<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">AlbumLink</XPD:ATTR>
-</XPD:OBJ>
-<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="dFBsKwD5T0+0TNvKf6fdhQAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-</XPD:OBJ>
-<XPD:OBJ name="PropertyLabel" type="LabelView" guid="RZRjxCVoOkOjfAqhjqzBTQAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-</XPD:OBJ>
-</XPD:OBJ>
-<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="f744fMzJO0mUfFduUUdhqwAA">
-<XPD:REF name="Model">YgUW7D+24EuSwkkUJr4xKAAA</XPD:REF>
-</XPD:OBJ>
-<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="53DVP8042U+Ch3izI1nC/AAA">
-<XPD:REF name="Model">YgUW7D+24EuSwkkUJr4xKAAA</XPD:REF>
-</XPD:OBJ>
-<XPD:OBJ name="TemplateParameterCompartment" type="UMLTemplateParameterCompartmentView" guid="oecd4zgzq0qsunpFoFC8rAAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:REF name="Model">YgUW7D+24EuSwkkUJr4xKAAA</XPD:REF>
-</XPD:OBJ>
-</XPD:OBJ>
-<XPD:OBJ name="OwnedViews[5]" type="UMLClassView" guid="IkYpqLxWwkmceHjd9C8/awAA">
-<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
-<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">388</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">224</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">105</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">96</XPD:ATTR>
-<XPD:REF name="Model">fZrmPBafQUipXXUIXZKigwAA</XPD:REF>
-<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="9FFyXVUY00WUOeuWTkCXaAAA">
-<XPD:OBJ name="NameLabel" type="LabelView" guid="oNcFOlHhgE62BBGUCB9TTgAA">
-<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">SongLink</XPD:ATTR>
-</XPD:OBJ>
-<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="Pu1ytBXxwEyT329900d1dAAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-</XPD:OBJ>
-<XPD:OBJ name="PropertyLabel" type="LabelView" guid="cJi9XcXp3EWEGo6n76EOAwAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-</XPD:OBJ>
-</XPD:OBJ>
-<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="wcp3pFAebEOMq85UX3F84wAA">
-<XPD:REF name="Model">fZrmPBafQUipXXUIXZKigwAA</XPD:REF>
-</XPD:OBJ>
-<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="xbdt8Yl1EkGaRQ8OJEyyPgAA">
-<XPD:REF name="Model">fZrmPBafQUipXXUIXZKigwAA</XPD:REF>
-</XPD:OBJ>
-<XPD:OBJ name="TemplateParameterCompartment" type="UMLTemplateParameterCompartmentView" guid="xSexnMq090GTAX3I4cKHegAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:REF name="Model">fZrmPBafQUipXXUIXZKigwAA</XPD:REF>
-</XPD:OBJ>
-</XPD:OBJ>
-<XPD:OBJ name="OwnedViews[6]" type="UMLClassView" guid="PXyPwEFCuU6dOmUoKFL0jQAA">
+<XPD:OBJ name="OwnedViews[3]" type="UMLClassView" guid="PXyPwEFCuU6dOmUoKFL0jQAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">248</XPD:ATTR>
@@ -271,7 +178,7 @@
 <XPD:REF name="Model">EICdNV923kmyw3A0uaJJHgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[7]" type="UMLClassView" guid="7hjtnlb2QkSpV8HbbiMRWAAA">
+<XPD:OBJ name="OwnedViews[4]" type="UMLClassView" guid="7hjtnlb2QkSpV8HbbiMRWAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">392</XPD:ATTR>
@@ -302,7 +209,7 @@
 <XPD:REF name="Model">uSu14ZbKe0WHG99+l5bmRAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[8]" type="UMLNoteView" guid="U4Tnz0Uw606RHgSFWr6WVgAA">
+<XPD:OBJ name="OwnedViews[5]" type="UMLNoteView" guid="U4Tnz0Uw606RHgSFWr6WVgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">640</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">28</XPD:ATTR>
@@ -324,14 +231,45 @@ For now, an Album can only have one Band.
 A Song can have only one Band. A Song can
 have only one Album.
 
-A Band can have many BandLinks. An Album
-can have many AlbumLinks. A Song can have
-many SongLinks.
+A Band can have many Links. An Album
+can have many Links. A Song can have
+many Links.
 </XPD:ATTR>
 </XPD:OBJ>
+<XPD:OBJ name="OwnedViews[6]" type="UMLClassView" guid="jr66uBIF9kqJchyXSVI6cwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">264</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">224</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">204</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">108</XPD:ATTR>
+<XPD:REF name="Model">Jqv4o+Wd5kGzsTmDO3HzQQAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="bz28ET+ktEOnIz+xg50+YgAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="EpSsoKSnaEGbpKz4NX2wtQAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Link</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="Y2fB4yYJBk6xBPjGqv9b/wAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="ShTGozwZzUWk/uc+0ii9bQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#OwnedElements" type="integer">10</XPD:ATTR>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="HcyuB6PdtEej+2iWdwRH+AAA">
+<XPD:REF name="Model">Jqv4o+Wd5kGzsTmDO3HzQQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="4Uebgvuie0+hZGgmMjkSXQAA">
+<XPD:REF name="Model">Jqv4o+Wd5kGzsTmDO3HzQQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="TemplateParameterCompartment" type="UMLTemplateParameterCompartmentView" guid="8cxM/y2r4ki7zvgmimgdqwAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">Jqv4o+Wd5kGzsTmDO3HzQQAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:ATTR name="#OwnedElements" type="integer">11</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="oSU8JKPo2kyZf/sZ410aZgAA">
 <XPD:ATTR name="Name" type="string">Band</XPD:ATTR>
 <XPD:REF name="Namespace">R7oXOvjn20+9ppfGZD/9sgAA</XPD:REF>
@@ -432,11 +370,6 @@ many SongLinks.
 <XPD:OBJ name="OwnedElements[3]" type="UMLClass" guid="yH4skxbjtUiZuMgAlwrOkgAA">
 <XPD:ATTR name="Name" type="string">BandLink</XPD:ATTR>
 <XPD:REF name="Namespace">R7oXOvjn20+9ppfGZD/9sgAA</XPD:REF>
-<XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
-<XPD:REF name="Views[0]">ZhpbyxNKa0OKnyJ9sE5w2wAA</XPD:REF>
-<XPD:REF name="Views[1]">g3luBiLcGEKpBrWO7iqKwgAA</XPD:REF>
-<XPD:REF name="Views[2]">WDrGWzp+bUeli1Ap4FS9RgAA</XPD:REF>
-<XPD:REF name="Views[3]">BH2eSHgaFEaf5e/4si6pagAA</XPD:REF>
 <XPD:ATTR name="#Attributes" type="integer">4</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="pItDH1nm/02AGdyGLR7TXAAA">
 <XPD:ATTR name="Name" type="string">id</XPD:ATTR>
@@ -462,11 +395,6 @@ many SongLinks.
 <XPD:OBJ name="OwnedElements[4]" type="UMLClass" guid="YgUW7D+24EuSwkkUJr4xKAAA">
 <XPD:ATTR name="Name" type="string">AlbumLink</XPD:ATTR>
 <XPD:REF name="Namespace">R7oXOvjn20+9ppfGZD/9sgAA</XPD:REF>
-<XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
-<XPD:REF name="Views[0]">wvyv6ZwhhUCPzIp2fKblRgAA</XPD:REF>
-<XPD:REF name="Views[1]">f744fMzJO0mUfFduUUdhqwAA</XPD:REF>
-<XPD:REF name="Views[2]">53DVP8042U+Ch3izI1nC/AAA</XPD:REF>
-<XPD:REF name="Views[3]">oecd4zgzq0qsunpFoFC8rAAA</XPD:REF>
 <XPD:ATTR name="#Attributes" type="integer">4</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="aCsIm73gqkSCoGs8kufEugAA">
 <XPD:ATTR name="Name" type="string">id</XPD:ATTR>
@@ -492,11 +420,6 @@ many SongLinks.
 <XPD:OBJ name="OwnedElements[5]" type="UMLClass" guid="fZrmPBafQUipXXUIXZKigwAA">
 <XPD:ATTR name="Name" type="string">SongLink</XPD:ATTR>
 <XPD:REF name="Namespace">R7oXOvjn20+9ppfGZD/9sgAA</XPD:REF>
-<XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
-<XPD:REF name="Views[0]">IkYpqLxWwkmceHjd9C8/awAA</XPD:REF>
-<XPD:REF name="Views[1]">wcp3pFAebEOMq85UX3F84wAA</XPD:REF>
-<XPD:REF name="Views[2]">xbdt8Yl1EkGaRQ8OJEyyPgAA</XPD:REF>
-<XPD:REF name="Views[3]">xSexnMq090GTAX3I4cKHegAA</XPD:REF>
 <XPD:ATTR name="#Attributes" type="integer">4</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="2JavgzuklkGykk61wsf9JgAA">
 <XPD:ATTR name="Name" type="string">id</XPD:ATTR>
@@ -641,6 +564,41 @@ many SongLinks.
 <XPD:OBJ name="Connections[1]" type="UMLAssociationEnd" guid="G9Rh0grWEEqrgLniWbto5wAA">
 <XPD:REF name="Association">OkSIEmdP6E6lwTAyEQV5kwAA</XPD:REF>
 <XPD:REF name="Participant">e4fD8KUbdkueqGoxH/8G3wAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[10]" type="UMLClass" guid="Jqv4o+Wd5kGzsTmDO3HzQQAA">
+<XPD:ATTR name="Name" type="string">Link</XPD:ATTR>
+<XPD:REF name="Namespace">R7oXOvjn20+9ppfGZD/9sgAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
+<XPD:REF name="Views[0]">jr66uBIF9kqJchyXSVI6cwAA</XPD:REF>
+<XPD:REF name="Views[1]">HcyuB6PdtEej+2iWdwRH+AAA</XPD:REF>
+<XPD:REF name="Views[2]">4Uebgvuie0+hZGgmMjkSXQAA</XPD:REF>
+<XPD:REF name="Views[3]">8cxM/y2r4ki7zvgmimgdqwAA</XPD:REF>
+<XPD:ATTR name="#Attributes" type="integer">5</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="fN/f4JqqmkyBYKwfjVnB1AAA">
+<XPD:ATTR name="Name" type="string">id</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
+<XPD:REF name="Owner">Jqv4o+Wd5kGzsTmDO3HzQQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="5a93lJuSo0esh7iMe40+9AAA">
+<XPD:ATTR name="Name" type="string">source</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">bandId, albumId, or songId</XPD:ATTR>
+<XPD:REF name="Owner">Jqv4o+Wd5kGzsTmDO3HzQQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="yTvrWZpGPUGTvJmCZ8+k3gAA">
+<XPD:ATTR name="Name" type="string">sourcetype</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">&quot;band&quot;,&quot;album&quot;, or &quot;song&quot;</XPD:ATTR>
+<XPD:REF name="Owner">Jqv4o+Wd5kGzsTmDO3HzQQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="6A3Tuz97y0OcznRPqgYs6gAA">
+<XPD:ATTR name="Name" type="string">url</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:REF name="Owner">Jqv4o+Wd5kGzsTmDO3HzQQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="gbRA97aYs0i8hlSTtWB7jQAA">
+<XPD:ATTR name="Name" type="string">description</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:REF name="Owner">Jqv4o+Wd5kGzsTmDO3HzQQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
