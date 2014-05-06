@@ -12,15 +12,15 @@
 		<div id="contentzone">
 			<h2>Countries in the Base</h2>
 			<hr />
-			<p>The following are recognized as countries by MetalBase:</p>
+			<?php include 'Includes/connect_to_db.inc.php' ?>
+			<?php include 'Includes/countries/add_country_if_POST.inc.php' ?>
+			<?php include 'Includes/countries/retrieve_countries.inc.php' ?>
+			<?php include 'Includes/countries/display_countries.inc.php' ?>
 			
-			<p>
-				<textarea type="text" rows="10" cols="50" disabled="disabled"></textarea>
-			</p>
 			<form method="post" action="countries.php">
-					<label for="newCountry">Add a new country: </label>
-					<input type="text" name="newCountry" id="new country"></input>
-					<input type="submit"></input>
+					<label for="new country">Add a new country: </label>
+					<input type="text" name="new_country" id="new_country"></input>
+					<input type="submit" value="Submit"></input>
 			</form>
 		</div> <!-- End of contentzone div -->
 		
