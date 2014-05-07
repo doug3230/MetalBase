@@ -21,7 +21,16 @@
 				include 'Includes/by_genre/choose_genre.inc.php';
 			}
 			else {
-				/*To do: obtain results */
+				include 'Includes/connect_to_db.inc.php';
+				include 'Includes/by_genre/get_genre_name.inc.php';
+				if (!$name_result)
+					echo "<h3>Requested genre does not exist.</h3>";
+				else {
+					$genre_name = $name_result['name'];
+					echo '<h3>Of the genre ' . $genre_name . ' :</h3>';
+					include 'Includes/by_genre/retrieve_elements.inc.php';
+					include 'Includes/by_genre/display_elements.inc.php';
+				}
 			}
 			?></p>
 		</div> <!-- End of contentzone div -->
