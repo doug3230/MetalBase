@@ -7,7 +7,7 @@ try {
 		$genre_name = $_REQUEST['new_genre'];
 		$s->bindvalue(':genre_name', $genre_name);
 		$s->execute();
-		echo "<p><strong>$genre_name successfully added to MetalBase.</strong></p>";
+		echo "<h3>$genre_name successfully added to MetalBase.</h3>";
 	}
 } catch (Exception $e) {
 	echo '<p>Error adding new genre: ' . $e->getMessage() . '</p>';

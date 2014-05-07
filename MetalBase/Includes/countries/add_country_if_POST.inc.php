@@ -7,7 +7,7 @@ try {
 		$country_name = $_REQUEST['new_country'];
 		$s->bindvalue(':country_name', $country_name);
 		$s->execute();
-		echo "<p><strong>$country_name successfully added to MetalBase.</strong></p>";
+		echo "<h3>$country_name successfully added to MetalBase.</h3>";
 	}
 } catch (Exception $e) {
 	echo '<p>Error adding new country: ' . $e->getMessage() . '</p>';
