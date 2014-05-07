@@ -22,7 +22,7 @@
 		<li class="heading">
 			<a href="bands.php">Bands</a>
 			<ul>
-				<li><a href="#">By Letter</a></li>
+				<li><a href="search_by_letter.php?type=band">By Letter</a></li>
 				<li><a href="#">By Genre</a></li>
 				<li><a href="#">By Country</a></li>
 			</ul>
@@ -30,7 +30,7 @@
 		<li class="heading">
 			<a href="albums.php">Albums</a>
 			<ul>
-				<li><a href="#">By Letter</a></li>
+				<li><a href="search_by_letter.php?type=album">By Letter</a></li>
 				<li><a href="#">By Genre</a></li>
 				<li><a href="#">By Country</a></li>
 			</ul>
@@ -38,7 +38,7 @@
 		<li class="heading">
 			<a href="songs.php">Songs</a>
 			<ul>
-				<li><a href="#">By Letter</a></li>
+				<li><a href="search_by_letter.php?type=song">By Letter</a></li>
 				<li><a href="#">By Genre</a></li>
 				<li><a href="#">By Country</a></li>
 			</ul>
