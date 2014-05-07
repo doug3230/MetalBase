@@ -24,6 +24,9 @@
 			} else {
 				include 'Includes/add_element/insert_band.inc.php';
 				echo "<h3>Band successfully added to MetalBase</h3>";
+				echo "<p><a href=''>add another</a></p>"; 
+				echo "<p><a href='bands.php?id=" . 
+					$pdo->lastInsertId() . "'>view the new band</a></p>";
 			}?>
 		</div> <!-- End of contentzone div -->
 		
