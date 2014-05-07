@@ -12,10 +12,10 @@
 		<div id="contentzone">
 			<h2>Countries in the Base</h2>
 			<hr />
-			<?php include 'Includes/connect_to_db.inc.php' ?>
-			<?php include 'Includes/countries/add_country_if_POST.inc.php' ?>
-			<?php include 'Includes/countries/retrieve_countries.inc.php' ?>
-			<?php include 'Includes/countries/display_countries.inc.php' ?>
+			<?php include 'Includes/connect_to_db.inc.php';
+				  include 'Includes/countries/add_country_if_POST.inc.php';
+				  include 'Includes/countries/retrieve_countries.inc.php';
+				  include 'Includes/countries/display_countries.inc.php'; ?>
 			
 			<form method="post" action="countries.php">
 					<label for="new country">Add a new country: </label>

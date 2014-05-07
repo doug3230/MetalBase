@@ -12,10 +12,10 @@
 		<div id="contentzone">
 			<h2>Genres in the Base</h2>
 			<hr />
-			<?php include 'Includes/connect_to_db.inc.php' ?>
-			<?php include 'Includes/genres/add_genre_if_POST.inc.php' ?>
-			<?php include 'Includes/genres/retrieve_genres.inc.php' ?>
-			<?php include 'Includes/genres/display_genres.inc.php' ?>
+			<?php include 'Includes/connect_to_db.inc.php';
+				  include 'Includes/genres/add_genre_if_POST.inc.php';
+				  include 'Includes/genres/retrieve_genres.inc.php';
+				  include 'Includes/genres/display_genres.inc.php'; ?>
 			
 			<form method="post" action="genres.php">
 					<label for="new country">Add a new genre: </label>
