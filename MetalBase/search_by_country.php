@@ -16,9 +16,9 @@
 			<p><?php 
 			if (!isset($_GET['type']))
 				include 'Includes/choose_type.inc.php';
-			elseif (!isset($_GET['letter'])) {
-				echo '<h3>Select a letter:</h3>';
-				//include 'Includes/by_letter/choose_letter.inc.php';
+			elseif (!isset($_GET['country'])) {
+				echo '<h3>Select a country:</h3>';
+				include 'Includes/by_country/choose_country.inc.php';
 			}
 			else {
 				/*
