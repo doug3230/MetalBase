@@ -16,7 +16,7 @@ while ($row = $result->fetch()) {
 	
 	$type_name = $row['name'];
 	$type_id = $row['id'];
-	echo "<td><a href=$type" . "_profile.php?id=" . 
+	echo "<td><a href=$type" . "s.php?id=" . 
 		$type_id . ">" . $type_name . "</a></td>";
 	$current++;
 }
