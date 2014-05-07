@@ -21,7 +21,16 @@
 				include 'Includes/by_country/choose_country.inc.php';
 			}
 			else {
-				/*To do: obtain results */
+				include 'Includes/connect_to_db.inc.php';
+				include 'Includes/by_country/get_country_name.inc.php';
+				if (!$name_result)
+					echo "<h3>Requested country does not exist.</h3>";
+				else {
+					$country_name = $name_result['name'];
+					echo '<h3>From the country ' . $country_name . ' :</h3>';
+					include 'Includes/by_country/retrieve_elements.inc.php';
+					include 'Includes/by_country/display_elements.inc.php';
+				}
 			}
 			?></p>
 		</div> <!-- End of contentzone div -->

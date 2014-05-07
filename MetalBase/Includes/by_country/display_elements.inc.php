@@ -1,11 +1,12 @@
 <?php
 try {
 	$type = $_GET['type'];
-	$letter = $_GET['letter'];
+	$country = $_GET['country'];
+	$country_name = $name_result['name'];
 	if (!$row = $result->fetch())
 		echo "<p>There are currently no " . $type . 
-			"s with a name starting with &ldquo;". $letter . 
-			"&rdquo; in the MetalBase system</p>";
+			"s from the country ". $country_name . 
+			" in the MetalBase system</p>";
 	else
 		include 'Includes/results_table.inc.php';
 } catch (Exception $e) {
