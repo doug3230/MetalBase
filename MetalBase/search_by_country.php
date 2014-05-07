@@ -21,12 +21,7 @@
 				include 'Includes/by_country/choose_country.inc.php';
 			}
 			else {
-				/*
-				echo '<h3>Starting with letter &ldquo;' . $_GET['letter'] . '&rdquo; :</h3>';
-				include 'Includes/connect_to_db.inc.php';
-				include 'Includes/by_letter/retrieve_elements.inc.php';
-				include 'Includes/by_letter/display_elements.inc.php';
-				*/
+				/*To do: obtain results */
 			}
 			?></p>
 		</div> <!-- End of contentzone div -->
