@@ -1,14 +1,15 @@
 <?php 
 include 'Includes/connect_to_db.inc.php'; 
-include 'Includes/by_country/retrieve_countries.inc.php';
+include_once 'Includes/retrieve_lib.inc.php';
 
-$type = $_GET['type'];
+$result = retrieve_countries_alphabetically();
 if (!isset($result)) {
 	echo "<p>There are currently no countries in the MetalBase system." .
-			" Head over to the <a href='countries.php'>Add Country</a> page.</p>";
+			" Head over to the <a href='countries.php'>Add Country</a>" .
+			" page and add some.</p>";
 } else {?>
 	<form method="get" action="">
-	<input type="hidden" name="type" id="type" value="<?php echo $type;?>" />
+	<input type="hidden" name="type" id="type" value="<?php echo $_GET['type'];?>" />
 	<select name="country" id="country">
 		<?php 
 			while($row = $result->fetch()) {
