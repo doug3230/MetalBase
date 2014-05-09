@@ -10,7 +10,7 @@
 	<label for="country">Country:</label>
 	<select name="country" id="country">
 		<?php 
-			while($row = $result->fetch()) {
+			while($row = $countries->fetch()) {
 				$country_id = $row['id'];
 				$country_name = $row['name'];
 				echo "<option value='$country_id'>$country_name</option>";
@@ -20,7 +20,7 @@
 	<br />
 	
 	<label for="description">Description:</label><br />
-	<textarea name="description" id="notes" cols="40" rows="10" maxlength="500"></textarea>
+	<textarea name="description" id="description" cols="40" rows="10" maxlength="500"></textarea>
 	<br />
 	
 	<input type='hidden' name='posted' value='true' />

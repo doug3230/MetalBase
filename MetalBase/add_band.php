@@ -15,14 +15,16 @@
 			<?php 
 			include 'Includes/connect_to_db.inc.php';
 			if (!isset($_POST['posted'])) {
-				include 'Includes/countries/retrieve_countries.inc.php';
-				if (!isset($result))
+				include_once 'Includes/retrieve_lib.inc.php';
+				$countries = retrieve_countries_alphabetically();
+				if (!isset($countries))
 					echo "<p>There are currently no countries in the MetalBase system." .
 					" Head over to the <a href='countries.php'>Add Country</a> page.</p>";
 				else
 					include 'Includes/add_element/band_form.inc.php';
 			} else {
-				include 'Includes/add_element/insert_band.inc.php';
+				include_once 'Includes/insert_lib.inc.php';
+				insert_band($_POST['name'], $_POST['year'], $_POST['country'], $_POST['description']);
 				echo "<h3>Band successfully added to MetalBase</h3>";
 				echo "<p><a href=''>add another</a></p>"; 
 				echo "<p><a href='bands.php?id=" . 
