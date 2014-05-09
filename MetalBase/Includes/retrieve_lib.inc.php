@@ -1,6 +1,7 @@
 <?php
-function retrieve_elements($table_name) {
+function retrieve_named_elements_alphabetically($table_name) {
 	try {
+		global $pdo;
 		$sql = "SELECT id, name FROM $table_name ORDER BY name";
 		$query_result = $pdo->query($sql);
 		return $query_result;
@@ -11,11 +12,11 @@ function retrieve_elements($table_name) {
 	}
 }
 
-function retrieve_bands() {return retrieve_elements("band");}
-function retrieve_albums() {return retrieve_elements("album");}
-function retrieve_songs() {return retrieve_elements("song");}
-function retrieve_countries() {return retrieve_elements("country");}
-function retrieve_genres() {return retrieve_elements("genre");}
+function retrieve_bands_alphabetically() {return retrieve_named_elements_alphabetically("band");}
+function retrieve_albums_alphabetically() {return retrieve_named_elements_alphabetically("album");}
+function retrieve_songs_alphabetically() {return retrieve_named_elements_alphabetically("song");}
+function retrieve_countries_alphabetically() {return retrieve_named_elements_alphabetically("country");}
+function retrieve_genres_alphabetically() {return retrieve_named_elements_alphabetically("genre");}
 
 function retrieve_element_name($table_name, $id) {
 	try {

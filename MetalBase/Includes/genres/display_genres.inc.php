@@ -1,5 +1,7 @@
 <?php
 try {
+	include_once 'Includes/retrieve_lib.inc.php';
+	$result = retrieve_genres_alphabetically();
 	if (!$row = $result->fetch())
 		echo '<p>There are currently no genres in the MetalBase system</p>';
 	else {

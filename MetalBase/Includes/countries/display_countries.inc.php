@@ -1,5 +1,7 @@
 <?php
 try {
+	include_once 'Includes/retrieve_lib.inc.php';
+	$result = retrieve_countries_alphabetically();
 	if (!$row = $result->fetch())
 		echo '<p>There are currently no countries in the MetalBase system</p>';
 	else {
