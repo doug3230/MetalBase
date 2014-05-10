@@ -1,0 +1,49 @@
+\documentclass{article}[12pt,a4paper]
+\usepackage{fullpage}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{titling} %for subtitle hack
+\usepackage{hyperref} %for hyperlinked toc hack
+
+%Hacks
+%-------
+%subtitle hack
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
+
+%hyperlinked table of contents hack
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+
+%Title
+%-----
+\title{\textsc{MetalBase 1.0}}
+\subtitle{\textbf{Documentation}}
+\author{\Large{Richard Douglas}}
+\date{\today{}}
+
+%Document
+%------------
+\begin{document}
+  \maketitle
+  
+  \section*{A section}
+  This document will be filled in later.
+  
+  \subsection*{A subsection}
+  
+  \tableofcontents
+  
+  \pagebreak
+  
+  \section{A numbered section}
+\end{document}  
