@@ -75,4 +75,21 @@ function retrieve_song($id) {return retrieve_element("song", $id);}
 function retrieve_country($id) {return retrieve_element("country", $id);}
 function retrieve_genre($id) {return retrieve_element("genre", $id);}
 function retrieve_link($id) {return retrieve_element("link", $id);}
+
+function retrieve_source_target_names($target_name, $source_var, $sourceId) {
+	try {
+		global $pdo;
+		$sql = "SELECT id, name FROM $target_name WHERE $source_var = $sourceId ORDER BY name";
+		$query_result = $pdo->query($sql);
+		return $query_result;
+	} catch (Exception $e) {
+		echo '<p>Error retrieving ' . $target_name . 's:' . $e->retrieveMessage() . '</p>';
+		include 'Includes/error.inc.php';
+		exit();
+	}
+}
+
+function retrieve_band_album_names($id) {return retrieve_source_target_names("album", "bandId", $id);}
+function retrieve_band_song_names($id) {return retrieve_source_target_names("song", "bandId", $id);}
+function retrieve_album_song_names($id) {return retrieve_source_target_names("album", "albumId", $id);}
 ?>
