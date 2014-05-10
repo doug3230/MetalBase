@@ -8,8 +8,8 @@
 	for ($i = 1; $i < count($genre_names); $i++)
 		echo "," . $genre_names[i];
 	?></td></tr>
-	<tr><td>Band</td><td><?php retrieve_band($song['bandId'])['name'];?></td></tr>
-	<tr><td>Album</td><td><?php retrieve_album($song['albumId'])['name'];?></td></tr>
+	<tr><td>Band</td><td><?php echo retrieve_band($song['bandId'])['name'];?></td></tr>
+	<tr><td>Album</td><td><?php echo retrieve_album($song['albumId'])['name'];?></td></tr>
 	<tr><td>Links</td><td><?php 
 	$links = retrieve_song_links($song['id']);
 	$row = $links->fetch();
