@@ -1,13 +1,12 @@
 <?php
-$COLS = 8;
+$COLS = 6;
 $current = 0;
 
-$type = $_GET['type'];
 $current_name = $row['name'];
 $current_id = $row['id'];
 
 echo "<table cols=$COLS border='1'><tbody><tr>";
-echo "<td><a href=$type" . "_profile.php?id=" . 
+echo "<td><a href=$type" . "s.php?id=" . 
 	$current_id . ">" . $current_name . "</a></td>";
 $current++;
 

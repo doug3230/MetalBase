@@ -91,7 +91,7 @@ function retrieve_source_target_names($target_name, $source_var, $sourceId) {
 
 function retrieve_band_album_names($id) {return retrieve_source_target_names("album", "bandId", $id);}
 function retrieve_band_song_names($id) {return retrieve_source_target_names("song", "bandId", $id);}
-function retrieve_album_song_names($id) {return retrieve_source_target_names("album", "albumId", $id);}
+function retrieve_album_song_names($id) {return retrieve_source_target_names("song", "albumId", $id);}
 
 function retrieve_type_target_names($type_name, $target_name, $sourceId, $requested_vals) {
 	try {
