@@ -40,7 +40,9 @@
 				echo $_POST['genre'];
 				insert_genre_relationship($_GET['id'], $_POST['genre'], "album"); 
 			}
-			include 'Includes/albums/edit_album_forms.inc.php';?>
+			include 'Includes/albums/edit_album_forms.inc.php';
+			echo "<a href='albums.php?id=" . $album['id'] . 
+					"'>Back to " . $album['name'] . "</a>";?>
 			
 		</div> <!-- End of contentzone div -->
 		

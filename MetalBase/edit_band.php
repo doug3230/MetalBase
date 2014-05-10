@@ -39,7 +39,10 @@
 				echo $_POST['genre'];
 				insert_genre_relationship($_GET['id'], $_POST['genre'], "band"); 
 			}
-			include 'Includes/bands/edit_band_forms.inc.php';?>
+			include 'Includes/bands/edit_band_forms.inc.php';
+			echo "<a href='bands.php?id=" . $band['id'] . 
+					"'>Back to " . $band['name'] . "</a>";?>
+			
 			
 		</div> <!-- End of contentzone div -->
 		
