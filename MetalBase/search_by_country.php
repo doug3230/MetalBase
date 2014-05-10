@@ -22,6 +22,7 @@
 			}
 			else {
 				include 'Includes/connect_to_db.inc.php';
+				$type = $_GET['type'];
 				include 'Includes/by_country/display_results.inc.php';
 			}
 			?></p>
