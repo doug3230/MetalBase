@@ -55,4 +55,24 @@ function retrieve_elements_having_property($type_name, $property_name ,$property
 
 function retrieve_elements_from_country($type_name, $country_id) {return retrieve_elements_having_property($type_name, "country", $country_id);}
 function retrieve_elements_from_genre($type_name, $genre_id) {return retrieve_elements_having_property($type_name, "genre", $genre_id);}
+
+function retrieve_element($table_name, $id) {
+	try {
+		global $pdo;
+		$sql = "SELECT * FROM $table_name WHERE id = $id";
+		$result = $pdo->query($sql);
+		return $result;
+	} catch (Exception $e) {
+		echo "<p>Error retrieving $table_name with id $id: " . $e->retrieveMessage() . "</p>";
+		include 'Includes/error.inc.php';
+		exit();
+	}
+}
+
+function retrieve_band($id) {return retrieve_element("band", $id);}
+function retrieve_album($id) {return retrieve_element("album", $id);}
+function retrieve_song($id) {return retrieve_element("song", $id);}
+function retrieve_country($id) {return retrieve_element("country", $id);}
+function retrieve_genre($id) {return retrieve_element("genre", $id);}
+function retrieve_link($id) {return retrieve_element("link", $id);}
 ?>
