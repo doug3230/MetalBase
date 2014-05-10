@@ -55,6 +55,19 @@ function insert_album($name, $year, $countryId, $bandId, $description) {
 	}
 }
 
+function update_album($id, $name, $year, $countryId, $bandId, $description) {
+	try {
+		global $pdo;
+		$sql = "UPDATE `album` SET name = '$name', year = $year, countryId = $countryId, " . 
+				"bandId = $bandId, description = '$description' WHERE id = $id";
+		$pdo->exec($sql);
+	} catch (PDOException $e) {
+		echo '<p>Error adding band:' . $e->getMessage() . '</p>';
+		include 'Includes/error.inc.php';
+		exit();
+	}
+}
+
 function insert_song($name, $year, $countryId, $bandId, $albumId, $description) {
 	try {
 		global $pdo;

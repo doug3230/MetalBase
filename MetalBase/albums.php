@@ -23,6 +23,8 @@
 				echo "<h2>" . $album['name'] . "</h2>";
 				echo "<hr />";
 				include 'Includes/albums/display_album.inc.php';
+				echo "<a href='edit_album.php?id=" . $album['id'] . 
+					"'>Edit " . $album['name'] . "</a>";
 			} else { 
 				echo "<h2>Albums</h2>";
 				echo "<hr />";

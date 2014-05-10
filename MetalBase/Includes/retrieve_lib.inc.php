@@ -119,6 +119,6 @@ function retrieve_album_genre_names($id) {return retrieve_type_genre_names("albu
 function retrieve_song_genre_names($id) {return retrieve_type_genre_names("song", $id);}
 
 function retrieve_band_links($id) {return retrieve_type_target_names("band", "link", $id, "id, url, description");}
-function retrieve_album_links($id) {return retrieve_type_target_names("band", "link", $id, "id, url, description");}
-function retrieve_song_links($id) {return retrieve_type_target_names("band", "link", $id, "id, url, description");}
+function retrieve_album_links($id) {return retrieve_type_target_names("album", "link", $id, "id, url, description");}
+function retrieve_song_links($id) {return retrieve_type_target_names("song", "link", $id, "id, url, description");}
 ?>

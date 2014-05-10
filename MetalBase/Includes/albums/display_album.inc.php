@@ -42,4 +42,4 @@
 </table>
 
 <textarea name="description" id="description" cols="40" rows="10" maxlength="500" disabled="disabled"><?php
-echo $album['description'];?></textarea>
+echo $album['description'];?></textarea><br />
