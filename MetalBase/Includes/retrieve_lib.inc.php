@@ -61,7 +61,7 @@ function retrieve_element($table_name, $id) {
 		global $pdo;
 		$sql = "SELECT * FROM $table_name WHERE id = $id";
 		$result = $pdo->query($sql);
-		return $result;
+		return $result->fetch();
 	} catch (Exception $e) {
 		echo "<p>Error retrieving $table_name with id $id: " . $e->retrieveMessage() . "</p>";
 		include 'Includes/error.inc.php';
@@ -92,4 +92,33 @@ function retrieve_source_target_names($target_name, $source_var, $sourceId) {
 function retrieve_band_album_names($id) {return retrieve_source_target_names("album", "bandId", $id);}
 function retrieve_band_song_names($id) {return retrieve_source_target_names("song", "bandId", $id);}
 function retrieve_album_song_names($id) {return retrieve_source_target_names("album", "albumId", $id);}
+
+function retrieve_type_target_names($type_name, $target_name, $sourceId, $requested_vals) {
+	try {
+		global $pdo;
+		$sql = "SELECT $requested_vals FROM $target_name WHERE sourceId = $sourceId AND sourceType = '$type_name'";
+		$query_result = $pdo->query($sql);
+		return $query_result;
+	} catch (Exception $e) {
+		echo '<p>Error retrieving ' . $target_name . 's:' . $e->retrieveMessage() . '</p>';
+		include 'Includes/error.inc.php';
+		exit();
+	}
+} 
+
+function retrieve_type_genre_names($type, $id) {
+	$genreIds = retrieve_type_target_names($type, "lookupgenre", $id, "genreId");
+	$genres = array();
+	while ($genreId = $genreIds->fetch())
+		$genres[] = retrieve_genre_name($genreId['genreId']);
+	return $genres;
+}
+
+function retrieve_band_genre_names($id) {return retrieve_type_genre_names("band", $id);}
+function retrieve_album_genre_names($id) {return retrieve_type_genre_names("album", $id);}
+function retrieve_song_genre_names($id) {return retrieve_type_genre_names("song", $id);}
+
+function retrieve_band_links($id) {return retrieve_type_target_names("band", "link", $id, "id, url, description");}
+function retrieve_album_links($id) {return retrieve_type_target_names("band", "link", $id, "id, url, description");}
+function retrieve_song_links($id) {return retrieve_type_target_names("band", "link", $id, "id, url, description");}
 ?>
