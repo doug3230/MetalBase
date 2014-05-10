@@ -12,9 +12,9 @@
 		<li class="heading">
 			<a href="index.php">Home</a>
 			<ul>
-				<li><a href="#">Add Band</a></li>
-				<li><a href="#">Add Album</a></li>
-				<li><a href="#">Add Song</a></li>
+				<li><a href="add_band.php">Add Band</a></li>
+				<li><a href="add_album.php">Add Album</a></li>
+				<li><a href="add_song.php">Add Song</a></li>
 				<li><a href="genres.php">Add Genre</a></li>
 				<li><a href="countries.php">Add Country</a></li>
 			</ul>
