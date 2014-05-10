@@ -15,7 +15,7 @@ Once WampServer is installed, run it. An icon should appear somewhere in your sy
 (the lower right corner of the desktop). This icon can be used for visiting "LocalHost"
 and the "www directory". 
 
-Visit the "www directory" (this will open file explorer) and paste a copy of the MetalBase folder inside.
+Visit the "www directory" (this will open file explorer) and paste a copy of the "MetalBase 1.0" folder inside.
 Now visit "LocalHost" (this will open your default web browser). If WampServer was installed correctly,
 you should see your WampServer homepage. If the MetalBase folder is in the right place (the www directory),
 you should see a link to "MetalBase" under the "Your Projects" heading of your WampServer homepage.
@@ -24,13 +24,13 @@ This link can be used for running MetalBase but there are some other steps to ta
 On your WampServer homepage, there is also a link to "phpMyAdmin".  Run that and set up a root account.
 It is recommended that you also set up a separate account for running database queries for MetalBase.
 
-Login to phpMyAdmin and import the "MetalBase.sql" file in this directory. This will set up the
+Login to phpMyAdmin and import the "MetalBase.sql" file located in this directory. This will set up the
 database tables so that storing elements, updating them, and adding new ones is now possible through
 the MetalBase website. (You can also perform deletion through phpMyAdmin).
 If you are having trouble, the internet has many phpMyAdmin tutorials.
 
 Open MetalBase in file explorer (you can use WampServer's "www directory" to make this step easier) and
-edit the "connect_to_db.inc.php" file in the Includes folder. 
+edit the "connect_to_db.inc.php" file in the Includes folder (located inside the "MetalBase 1.0" folder). 
 Change 'mbuser' to a username for a phpMyAdmin account that can access the MetalBase database,
 and change 'mbpassword' to its corresponding password. But keep the quotation marks!
 
