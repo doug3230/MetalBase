@@ -6,7 +6,7 @@
 	if ($genre_names)
 		echo $genre_names[0];
 	for ($i = 1; $i < count($genre_names); $i++)
-		echo "," . $genre_names[i];
+		echo ",</br>" . $genre_names[$i];
 	?></td></tr>
 	<tr><td>Albums</td><td><?php
 	$albums = retrieve_band_album_names($band['id']);
@@ -54,3 +54,6 @@
 	}
 	?></td></tr>
 </table>
+
+<textarea name="description" id="description" cols="40" rows="10" maxlength="500" disabled="disabled"><?php
+echo $band['description'];?></textarea>
