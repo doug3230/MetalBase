@@ -23,6 +23,8 @@
 				echo "<h2>" . $song['name'] . "</h2>";
 				echo "<hr />";
 				include 'Includes/songs/display_song.inc.php';
+				echo "<a href='edit_song.php?id=" . $song['id'] . 
+					"'>Edit " . $song['name'] . "</a>";
 			} else { 
 				echo "<h2>Songs</h2>";
 				echo "<hr />";

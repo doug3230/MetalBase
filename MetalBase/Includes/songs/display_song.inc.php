@@ -28,4 +28,4 @@
 </table>
 
 <textarea name="description" id="description" cols="40" rows="10" maxlength="500" disabled="disabled"><?php
-echo $song['description'];?></textarea>
+echo $song['description'];?></textarea><br />
