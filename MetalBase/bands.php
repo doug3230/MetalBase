@@ -23,6 +23,8 @@
 				echo "<h2>" . $band['name'] . "</h2>";
 				echo "<hr />";
 				include 'Includes/bands/display_band.inc.php';
+				echo "<a href='edit_band.php?id=" . $band['id'] . 
+					"'>Edit " . $band['name'] . "</a>";
 			} else { 
 				echo "<h2>Bands</h2>";
 				echo "<hr />";

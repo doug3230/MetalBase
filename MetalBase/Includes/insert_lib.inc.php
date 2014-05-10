@@ -29,6 +29,19 @@ function insert_band($name, $year, $countryId, $description) {
 	}
 }
 
+function update_band($id, $name, $year, $countryId, $description) {
+	try {
+		global $pdo;
+		$sql = "UPDATE `band` SET name = '$name', year = $year, countryId = $countryId, " . 
+				"description = '$description' WHERE id = $id";
+		$pdo->exec($sql);
+	} catch (PDOException $e) {
+		echo '<p>Error adding band:' . $e->getMessage() . '</p>';
+		include 'Includes/error.inc.php';
+		exit();
+	}
+}
+
 function insert_album($name, $year, $countryId, $bandId, $description) {
 	try {
 		global $pdo;
@@ -59,7 +72,7 @@ function insert_link($sourceId, $url, $description, $sourceType) {
 	try {
 		global $pdo;
 		$sql = "INSERT INTO `link`(`sourceid`, `url`, `description`, `sourcetype`) " . 
-				"VALUES ($sourceId, '$url', '$description', '$sourcetype')";
+				"VALUES ($sourceId, '$url', '$description', '$sourceType')";
 		$pdo->exec($sql);
 	} catch (PDOException $e) {
 		echo '<p>Error adding link:' . $e->getMessage() . '</p>';
@@ -72,7 +85,7 @@ function insert_genre_relationship($sourceId, $genreId, $sourceType) {
 	try {
 		global $pdo;
 		$sql = "INSERT INTO `lookupgenre`(`sourceId`, `genreId`, `sourcetype`) " . 
-				"VALUES ($sourceId, $genreId, '$sourcetype')";
+				"VALUES ($sourceId, $genreId, '$sourceType')";
 		$pdo->exec($sql);
 	} catch (PDOException $e) {
 		echo '<p>Error adding genre relationship:' . $e->getMessage() . '</p>';
@@ -80,4 +93,6 @@ function insert_genre_relationship($sourceId, $genreId, $sourceType) {
 		exit();
 	}
 }
+
+
 ?>

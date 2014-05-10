@@ -56,4 +56,4 @@
 </table>
 
 <textarea name="description" id="description" cols="40" rows="10" maxlength="500" disabled="disabled"><?php
-echo $band['description'];?></textarea>
+echo $band['description'];?></textarea><br />
